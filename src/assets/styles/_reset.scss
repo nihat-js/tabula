@@ -1,0 +1,188 @@
+$title-font: 'Poppins', sans-serif;
+$body-font: 'Lato', sans-serif;
+$body-color: #333;
+$title-color: #222222;
+$section-bg-color: #ebf5f5;
+$title-color-white: #fff;
+$title-color-hover: #e12454;
+$title-light-pink: #ffd9db;
+$text-hover-color: #0060aa;
+$border-color: #aaa;
+$line-height: 25px;
+$my-width: 100%;
+$my-height: 100%;
+$align-center: center;
+$transition: all 0.5s;
+// index 2 page vaeiable
+$bg-color2: #004274;
+$section-bg-color2: #00b3ff;
+// index 03 page variables
+$bg-color3: #ff9e21;
+$section-bg-color3: #0a3382;
+$yellow-color: #f9c862;
+// different font size variables
+$h1-font-size: 65px;
+$h2-font-size: 55px;
+$h3-font-size: 45px;
+$h4-font-size: 36px;
+$h5-font-size: 30px;
+$h6-font-size: 28px;
+$font-size-24: 24px;
+$font-size-22: 22px;
+$font-size-20: 20px;
+$a-font-size: 18px;
+$font-size: 16px;
+$font-xsmall: 14px;
+$font-xxsmall: 12px;
+// different font weight
+$font-weight-bold: 700;
+$font-weight1: 600;
+$font-weight2: 500;
+$font-weight3: 400;
+body,
+html {
+  font-family: $body-font;
+  font-size: $font-size;
+  color: $body-color;
+  line-height: $line-height;
+  width: $my-width;
+  height: $my-height;
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+a {
+  color: $body-color;
+  text-decoration: none;
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+i:before {
+  margin-left: 0 !important;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: $text-hover-color;
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: $title-font;
+  line-height: 1.1;
+  font-weight: 500;
+  color: $title-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: $title-color;
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+h1,
+.h1 {
+  font-size: $h1-font-size;
+}
+
+h2,
+.h2 {
+  font-size: $h2-font-size;
+}
+
+h3,
+.h3 {
+  font-size: $h3-font-size;
+}
+
+h4,
+.h4 {
+  font-size: $h4-font-size;
+}
+
+h5,
+.h5 {
+  font-size: $h5-font-size;
+}
+
+h6,
+.h6 {
+  font-size: $h6-font-size;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a {
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+p {
+  margin: 0;
+  color: #797979;
+  font-size: 16px;
+}
+.sec-title {
+  font-size: 22px;
+  padding: 30px 0px;
+}
+input,
+select,
+button,
+textarea {
+  outline: none;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

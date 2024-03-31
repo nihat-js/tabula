@@ -1,0 +1,4 @@
+<template>
+  Service list
+</template>
+

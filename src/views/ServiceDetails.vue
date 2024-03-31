@@ -1,0 +1,3 @@
+<template>
+  Service details
+</template>

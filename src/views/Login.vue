@@ -92,3 +92,28 @@
     </div>
   </div>
 </template>
+
+
+<script setup>
+import { ref } from 'vue'
+import { useAuthStore } from "../stores/auth.js"
+import { useRouter } from 'vue-router';
+
+const authStore = useAuthStore()
+const router = useRouter()
+
+const isLogin = ref(false)
+const form = ref({
+  email: '',
+  password: ''
+})
+
+const toggleForm = () => { isLogin.value = !isLogin.value }
+const register = async () => {
+  await authStore.register({ email: form.value.email, password: form.value.password }, router);
+}
+const login = async () => {
+  await authStore.login({ email: form.value.email, password: form.value.password }, router);
+}
+
+</script>

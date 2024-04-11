@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import "../assets/styles/style.css"
 import Home from '@/views/Home.vue'
 import ServiceList from '@/views/ServiceList.vue'
 import ServiceDetails from '@/views/ServiceDetails.vue'
@@ -15,7 +14,7 @@ const router = createRouter({
     // { path: '/blog', name: 'blog-list', component: BlogListView },
     // { path: '/blog/:id', name: 'blog-detail', component: BlogDetailView },
     { path: '/services', name: 'service-list', component: ServiceList },
-    { path: '/service/:id', name: 'service-detail', component: ServiceDetails },
+    { path: '/services/:id', name: 'service-detail', component: ServiceDetails },
   ]
 })
 

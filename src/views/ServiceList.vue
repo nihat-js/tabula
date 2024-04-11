@@ -470,6 +470,11 @@
 <script setup>
 import Nav from "@/components/Nav.vue";
 import ServiceItem from "@/components/services/ServiceItem.vue";
+import useAxios from "@/composables/useAxios";
+
+
+const { loading, error, data, exec } = useAxios()
+exec("get", "/urls")
 
 const services = [
   {
